@@ -7,12 +7,12 @@ export interface WgslTestSrc {
   notes?: string;
   /**
    * Expected linked result wgsl.
-   * Uses the minimal mangling strategy, see [NameMangling.md](https://github.com/wgsl-tooling-wg/wesl-spec/blob/main/NameMangling.md)
+   * Uses the minimal mangling strategy, see [NameMangling.md](https://github.com/webgpu-tools/wesl-spec/blob/main/NameMangling.md)
    */
   expectedWgsl?: string;
   /**
    * Expected linked result wgsl.
-   * Uses the underscore-count mangling strategy, see [NameMangling.md](https://github.com/wgsl-tooling-wg/wesl-spec/blob/main/NameMangling.md)
+   * Uses the underscore-count mangling strategy, see [NameMangling.md](https://github.com/webgpu-tools/wesl-spec/blob/main/NameMangling.md)
    */
   underscoreWgsl?: string;
 }

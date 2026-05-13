@@ -2,7 +2,7 @@ import type { WgslTestSrc } from "../TestSchema.ts";
 
 export const conditionalTranslationCases: WgslTestSrc[] = [
   // first we check that if attributes work on all valid locations.
-  // https://github.com/wgsl-tooling-wg/wesl-spec/blob/main/ConditionalTranslation.md#location-of-translate-time-attributes
+  // https://github.com/webgpu-tools/wesl-spec/blob/main/ConditionalTranslation.md#location-of-translate-time-attributes
   {
     name: "@if on diagnostic directive",
     weslSrc: {

@@ -1,6 +1,6 @@
 import type { BulkTest } from "../TestSchema.ts";
 
-/** tests run on projects in the https://github.com/wgsl-tooling-wg/community-wgsl repo */
+/** tests run on projects in the https://github.com/webgpu-tools/community-wgsl repo */
 export const bulkTests: BulkTest[] = [
   {
     name: "WebGPU Samples",
@@ -15,7 +15,7 @@ export const bulkTests: BulkTest[] = [
     name: "Boat Attack from Unity Web Research",
     baseDir: "shaders/unity_web_research",
     // A small set of wgsl files that mostly covers the unity bulk tests
-    // Pre-selected with the unique file finder https://github.com/wgsl-tooling-wg/wesl-js/issues/161
+    // Pre-selected with the unique file finder https://github.com/webgpu-tools/wesl-js/issues/161
   },
   {
     name: "Alpenglow",
